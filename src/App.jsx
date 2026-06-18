@@ -8,6 +8,8 @@ import Skills from './components/Skills.jsx'
 import QualificationsEducation from './components/QualificationsEducation.jsx'
 import Training from './components/Training.jsx'
 import Experience from './components/Experience.jsx'
+import Projects from './components/Projects.jsx'
+import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 
 
@@ -25,6 +27,8 @@ function App() {
         <QualificationsEducation />
         <Training />
         <Experience />
+        <Projects />
+        <Contact />
         <Footer/>
 
     </div>

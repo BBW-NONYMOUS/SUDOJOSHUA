@@ -57,7 +57,7 @@ export default function About() {
   return (
     <section
       id="About"
-      className="relative mt-24 overflow-hidden rounded-[40px] border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 py-16 px-4 sm:px-6 lg:px-10"
+      className="relative mt-16 overflow-hidden border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 px-4 py-14 sm:mt-24 sm:rounded-[40px] sm:px-6 sm:py-16 lg:px-10"
     >
       <div className="pointer-events-none absolute inset-0 opacity-70">
         <div className="absolute -top-10 left-16 h-64 w-64 rounded-full bg-indigo-500/20 blur-[120px]" />
@@ -65,11 +65,11 @@ export default function About() {
       </div>
       <div className="relative mx-auto max-w-6xl space-y-14">
         <header className="text-center space-y-6">
-          <div className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-5 py-2 text-xs font-semibold uppercase tracking-[0.4em] text-slate-300">
+          <div className="inline-flex max-w-full items-center gap-3 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-slate-300 sm:px-5 sm:tracking-[0.4em]">
             About Me
           </div>
           <div className="space-y-4">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-white">
+            <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
               Multi-disciplinary dev crafting immersive digital systems
             </h2>
             <p className="text-slate-300 max-w-3xl mx-auto">
@@ -79,7 +79,7 @@ export default function About() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-left">
             {highlights.map((highlight) => (
-              <div key={highlight} className="rounded-2xl border border-white/5 bg-white/5 p-5 backdrop-blur">
+              <div key={highlight} className="rounded-2xl border border-white/5 bg-white/5 p-4 backdrop-blur sm:p-5">
                 <p className="text-sm text-slate-200 leading-relaxed">{highlight}</p>
               </div>
             ))}

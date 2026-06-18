@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">KMPDO Archive project preview</title>
+  <desc id="desc">Stylized archive portal preview for the KMPDO Archive project.</desc>
+  <rect width="960" height="560" rx="42" fill="#1e1b4b"/>
+  <rect x="48" y="48" width="864" height="464" rx="32" fill="#0f172a"/>
+  <rect x="96" y="96" width="768" height="74" rx="22" fill="#312e81"/>
+  <text x="124" y="144" fill="#eef2ff" font-family="Arial, sans-serif" font-size="34" font-weight="800">KMPDO Archive</text>
+  <rect x="112" y="236" width="210" height="186" rx="24" fill="#1e293b"/>
+  <rect x="374" y="236" width="210" height="186" rx="24" fill="#3730a3"/>
+  <rect x="636" y="236" width="210" height="186" rx="24" fill="#1e293b"/>
+  <path d="M168 306h94l30 34v66H168z" fill="none" stroke="#c4b5fd" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M430 306h94l30 34v66H430z" fill="none" stroke="#67e8f9" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M692 306h94l30 34v66H692z" fill="none" stroke="#a5b4fc" stroke-width="12" stroke-linejoin="round"/>
+</svg>

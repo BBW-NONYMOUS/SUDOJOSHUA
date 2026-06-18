@@ -22,7 +22,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 to-slate-900 overflow-hidden"
+      className="relative overflow-hidden bg-gradient-to-b from-slate-950 to-slate-900 px-4 py-16 sm:px-6 sm:py-20 lg:px-8"
     >
       <div className="pointer-events-none absolute inset-x-0 top-8 flex justify-center">
         <div className="h-40 w-40 rounded-full bg-indigo-500/10 blur-3xl" />
@@ -30,7 +30,7 @@ export default function Skills() {
       <div className="relative max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-12">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.4em] text-indigo-300">Skills</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-indigo-300 sm:tracking-[0.4em]">Skills</p>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-3">What I Bring to the Table</h2>
           </div>
           <p className="text-slate-300 max-w-xl">
@@ -38,7 +38,7 @@ export default function Skills() {
             with confidence.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6" data-aos="fade-up">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2" data-aos="fade-up">
           {skillGroups.map((group) => (
             <article
               key={group.title}
