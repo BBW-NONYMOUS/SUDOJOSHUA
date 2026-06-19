@@ -70,7 +70,7 @@ export default function Main() {
                 <img src={Profile} alt="Joshua Legada portrait" className="h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
                 <div className="absolute bottom-5 left-5 right-5">
-                  <p className="text-xs font-semibold uppercase tracking-[0.3em] text-cyan-200">Builder Profile</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.3em] text-cyan-200">Programmer Profile</p>
                   <h2 className="mt-2 text-2xl font-black text-white">SudoJoshua</h2>
                   <p className="mt-2 text-sm leading-relaxed text-slate-300">
                     Focused on dependable UI, organized systems, and fast project delivery.

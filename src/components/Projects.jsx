@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos'
-import MusicStepImage from '../assets/projects/musicstep.svg'
+import MusicStepImage from '../assets/projects/musicstep.jpg'
 import TaskMateImage from '../assets/projects/taskmate-preview.jpg'
-import MosqueInfoImage from '../assets/projects/mosqueinfo.svg'
-import TriTrackImage from '../assets/projects/tritrack.svg'
-import FarmStockImage from '../assets/projects/farmstock.svg'
-import KmpdoArchiveImage from '../assets/projects/kmpdoarchive.svg'
-import BoarderTrackImage from '../assets/projects/boardertrack.svg'
-import ScanAttendImage from '../assets/projects/scanattend.svg'
+import MosqueInfoImage from '../assets/projects/mosqueinfo.jpg'
+import TriTrackImage from '../assets/projects/tritrack.jpg'
+import FarmStockImage from '../assets/projects/farmstock.jpg'
+import KmpdoArchiveImage from '../assets/projects/kmpdoarchive.jpg'
+import BoarderTrackImage from '../assets/projects/boardertrack.jpg'
+import ScanAttendImage from '../assets/projects/scanattend.jpg'
 
 const projects = [
   {
